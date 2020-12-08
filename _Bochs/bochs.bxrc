@@ -1,0 +1,16 @@
+megs: 256
+
+romimage: file="F:/Application/Bochs-2.6.8/BIOS-bochs-latest"
+vgaromimage: file="F:/Application/Bochs-2.6.8/VGABIOS-lgpl-latest"
+
+floppya: 1_44=GuEeOS.img, status=inserted
+
+boot: floppy
+#boot: disk
+
+log: _Bochs/bochsout.log
+mouse: enabled=0
+
+keyboard: keymap="F:/Application/Bochs-2.6.8/keymaps/x11-pc-us.map"
+
+ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14

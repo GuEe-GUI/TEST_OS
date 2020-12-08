@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "*.h": "cpp",
+            "*.asm": "asm",
+            "window.h": "c",
+            "vga.h": "c",
+            "types.h": "c",
+            "graphics.h": "c",
+            "color.h": "c",
+            "math.h": "c",
+            "assembly.h": "c",
+            "*.inc": "c",
+            "font.h": "c",
+            "time.h": "c",
+            "image.h": "c",
+            "encoding.h": "c",
+        }
+    }
+}
